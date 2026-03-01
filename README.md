@@ -1,4 +1,5 @@
 <div align="center">
+  <img src="./favicon.png" alt="Nuclei Dashboard Logo" width="120">
 
 # ⚛️ Nuclei Dashboard
 
