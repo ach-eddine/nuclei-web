@@ -1,0 +1,15 @@
+services:
+  nuclei-dashboard:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8080:8080"
+      - "3001:3001"
+    volumes:
+      - es-data:/usr/share/elasticsearch/data
+      - nuclei-templates:/root/.local/nuclei-templates
+
+volumes:
+  es-data:
+  nuclei-templates:

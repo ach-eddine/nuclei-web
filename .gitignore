@@ -1,0 +1,20 @@
+# Common
+node_modules/
+.DS_Store
+*.log
+.env
+.env.local
+.vscode/
+
+# Frontend
+frontend/dist/
+frontend/dist-ssr/
+frontend/.local
+
+# Backend
+backend/node_modules/
+backend/dist/
+
+# Docker
+.data/
+elasticsearch-data/
